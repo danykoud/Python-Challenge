@@ -9,7 +9,7 @@ change_month= []
 Greatest= 0
 Lowest= 0
 
-budget_data_path= os.path.join("_ファイル","Homework","03-Python","Instructions","PyBank","Resources","budget_data.csv")
+budget_data_path= os.path.join("PyBank","Resources","budget_data.csv")
 with open(budget_data_path, 'r') as budget_file:
     file_read= csv.reader(budget_file, delimiter=',')
 

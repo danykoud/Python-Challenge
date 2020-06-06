@@ -12,7 +12,7 @@ list_candidate = []
 
 # set the path for csv file
 
-election_data_path= os.path.join("_ファイル","Homework","03-Python","Instructions","PyPoll","Resources","election_data.csv")
+election_data_path= os.path.join("PyPoll","Resources","election_data.csv")
 
 # open and read the CSV file 
 with open(election_data_path, 'r') as election_file:
